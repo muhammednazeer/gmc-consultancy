@@ -80,61 +80,57 @@
 
   <main id="main">
 
-   <!--==========================
-  About Us Section
-============================-->
-<section id="about">
-  <div class="container">
-    <header class="section-header">
-      <h3>About Us</h3>
-      <p>Founded in 2019, GMC Consulting Services provides innovative solutions to complex challenges in Political Economy, International Relations, Environmental Management, and more. Our expert advisory services support government, private sector, and academic collaborations to drive regional and national development.</p>
-    </header>
+    <!--==========================
+    About Us Section
+  ============================-->
+  <section id="about">
+    <div class="container">
+      <header class="section-header">
+        <h3>About Us</h3>
+        <p>Founded in 2019, GMC Consulting Services provides innovative solutions to complex challenges in Political Economy, International Relations, Environmental Management, and more. Our expert advisory services support government, private sector, and academic collaborations to drive regional and national development.</p>
+      </header>
 
-    <div class="row about-container">
-      <div class="col-lg-6 content order-lg-1 order-2">
-        <p>
-          We deliver specialized services designed to address both immediate and long-term challenges across various sectors, enhancing collaboration and promoting sustainable development.
-        </p>
+      <div class="row about-container">
+        <div class="col-lg-6 content order-lg-1 order-2">
+          <p>
+            We deliver specialized services designed to address both immediate and long-term challenges across various sectors, enhancing collaboration and promoting sustainable development.
+          </p>
 
-        <div class="icon-box wow fadeInUp">
-          <div class="icon"><i class="fa fa-cogs"></i></div>
-          <h4 class="title"><a href="">Political Economy Analysis</a></h4>
-          <p class="description">In-depth analysis and advice for navigating political and economic landscapes, both locally and globally.</p>
+          <div class="icon-box wow fadeInUp">
+            <div class="icon"><i class="fa fa-cogs"></i></div>
+            <h4 class="title"><a href="">Political Economy Analysis</a></h4>
+            <p class="description">In-depth analysis and advice for navigating political and economic landscapes, both locally and globally.</p>
+          </div>
+
+          <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+            <div class="icon"><i class="fa fa-leaf"></i></div>
+            <h4 class="title"><a href="">Environmental Management</a></h4>
+            <p class="description">Solutions for sustainable environmental practices, including impact assessments and waste management strategies.</p>
+          </div>
+
+          <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+            <div class="icon"><i class="fa fa-handshake"></i></div>
+            <h4 class="title"><a href="">International Collaborations</a></h4>
+            <p class="description">Fostering international partnerships and engagements, including youth inclusion in governance and anti-corruption initiatives.</p>
+          </div>
         </div>
 
-        <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-          <div class="icon"><i class="fa fa-leaf"></i></div>
-          <h4 class="title"><a href="">Environmental Management</a></h4>
-          <p class="description">Solutions for sustainable environmental practices, including impact assessments and waste management strategies.</p>
-        </div>
-
-        <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-          <div class="icon"><i class="fa fa-handshake"></i></div>
-          <h4 class="title"><a href="">International Collaborations</a></h4>
-          <p class="description">Fostering international partnerships and engagements, including youth inclusion in governance and anti-corruption initiatives.</p>
+        <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+          <img src="img/header-intro-image.svg" class="img-fluid" alt="GMC Consulting Overview">
         </div>
       </div>
 
-      <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-        <img src="img/header-intro-image.svg" class="img-fluid" alt="GMC Consulting Overview">
+      <div class="row about-extra">
+        <div class="col-lg-6 wow fadeInUp">
+          <img src="img/about-extra-1.svg" class="img-fluid" alt="Our Work">
+        </div>
+        <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+          <h4>Delivering Real Impact for Regional Development</h4>
+          <p>We work hand-in-hand with governments, SMEs, and academia to promote development programs and solutions that transform local and regional economies.</p>
+        </div>
       </div>
     </div>
-
-    <!-- Chief Consulting Officer's Profile Picture  -->
-    <div class="row about-extra">
-      <div class="col-lg-6 wow fadeInUp">
-        <img src="img/chief-consulting-officer.jpg" class="img-fluid rounded-circle" alt="Chief Consulting Officer" style="width: 400px; height: 450px; object-fit: cover; margin-bottom: 20px; border: solid 4px rgb(160, 202, 239);">
-        <h4>Chief Consulting Officer</h4>
-        <p>Our Chief Consulting Officer brings over 10 years of experience in political economy analysis, international relations, and environmental management. With a proven track record of delivering impactful solutions, they lead our team in driving innovation and sustainable development.</p>
-      </div>
-      <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-        <h4>Delivering Real Impact for Regional Development</h4>
-        <p>We work hand-in-hand with governments, SMEs, and academia to promote development programs and solutions that transform local and regional economies.</p>
-      </div>
-    </div>
-  </div>
-</section><!-- #about -->
-
+  </section><!-- #about -->
 
     <!--==========================
     Services Section
@@ -269,6 +265,140 @@
   </section>
 
 
+   
+  
+
+
+   <!--==========================
+    Clients Section
+  ============================-->
+  <!-- <section id="testimonials" class="section-bg">
+    <div class="container">
+
+      <header class="section-header">
+        <h3>What Our Clients Say</h3>
+      </header>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+
+          <div class="owl-carousel testimonials-carousel wow fadeInUp">
+
+            <div class="testimonial-item">
+              <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+              <h3>Jane Doe</h3>
+              <h4>CEO, Tech Innovators</h4>
+              <p>"GMC Consulting has been an integral part of our digital transformation. Their expertise and support have helped us elevate our business operations to the next level." </p>
+            </div>
+
+            <div class="testimonial-item">
+              <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
+              <h3>John Smith</h3>
+              <h4>Founder, Smart Solutions</h4>
+              <p>"The team at GMC Consulting delivers exceptional service. We’ve been able to launch several successful projects thanks to their expert guidance and support."</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>#testimonials -->
+
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <!-- <section id="team">
+      <div class="container">
+        <div class="section-header">
+          <h3>Team</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="member">
+              <img src="img/team-1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="img/team-2.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="img/team-3.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="img/team-4.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Amanda Jepson</h4>
+                  <span>Accountant</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>#team -->
+
+    <!--==========================
+    Clients Section
+  ============================-->
   <section id="clients" class="section-bg">
 
     <div class="container">
