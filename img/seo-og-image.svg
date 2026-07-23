@@ -1,0 +1,29 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GMC Consulting Services</title>
+  <desc id="desc">Policy advisory, research and strategy in Abuja, Nigeria.</desc>
+  <rect width="1200" height="630" fill="#071827"/>
+  <rect x="58" y="58" width="1084" height="514" rx="36" fill="url(#paint0_linear)" stroke="rgba(255,255,255,0.10)"/>
+  <circle cx="1010" cy="120" r="118" fill="rgba(240,197,106,0.18)"/>
+  <circle cx="1064" cy="178" r="184" fill="rgba(10,76,116,0.42)"/>
+  <circle cx="113" cy="520" r="154" fill="rgba(214,162,74,0.12)"/>
+  <path d="M820 132C881 82 969 68 1040 103C1110 138 1152 214 1138 293C1124 373 1056 431 975 432C885 433 814 372 799 285C786 211 758 167 820 132Z" fill="rgba(255,255,255,0.04)"/>
+  <rect x="106" y="108" width="176" height="52" rx="26" fill="rgba(255,255,255,0.10)"/>
+  <text x="144" y="141" fill="#F2CF8E" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="3">ABUJA</text>
+  <text x="106" y="260" fill="#FFFFFF" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-weight="700">GMC Consulting Services</text>
+  <text x="106" y="329" fill="#D8E5EE" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400">Policy advisory, research and strategy</text>
+  <text x="106" y="378" fill="#D8E5EE" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400">for public, private and academic partners</text>
+  <g transform="translate(106 438)">
+    <rect width="194" height="48" rx="24" fill="#F0C56A"/>
+    <text x="28" y="31" fill="#132330" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Founded 2019</text>
+  </g>
+  <g transform="translate(318 438)">
+    <rect width="284" height="48" rx="24" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
+    <text x="28" y="31" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Abuja, Nigeria</text>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear" x1="58" y1="58" x2="1142" y2="572" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B2840"/>
+      <stop offset="1" stop-color="#0E5A84"/>
+    </linearGradient>
+  </defs>
+</svg>

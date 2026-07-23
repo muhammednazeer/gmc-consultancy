@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="760" height="520" viewBox="0 0 760 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GMC Consulting hero illustration</title>
+  <desc id="desc">An abstract consulting dashboard with charts, cards, and a globe motif in blue and gold tones.</desc>
+  <defs>
+    <linearGradient id="bgGlow" x1="116" y1="52" x2="640" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9EAF7" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#EEF4FB" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="252" y1="122" x2="560" y2="402" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#F4F8FC" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="198" y1="104" x2="566" y2="433" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A4C74"/>
+      <stop offset="1" stop-color="#0D2440"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="520" y1="96" x2="650" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4D08A"/>
+      <stop offset="1" stop-color="#D49A34"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="317" y1="236" x2="483" y2="353" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7FD3DA"/>
+      <stop offset="1" stop-color="#2EA4B3"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="760" height="520" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#061626" flood-opacity="0.18"/>
+    </filter>
+    <filter id="softShadow" x="0" y="0" width="760" height="520" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#0A2340" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <g opacity="0.9">
+    <ellipse cx="404" cy="262" rx="262" ry="188" fill="url(#bgGlow)"/>
+    <ellipse cx="583" cy="162" rx="70" ry="70" fill="#D9EAF7" fill-opacity="0.55"/>
+    <circle cx="574" cy="154" r="38" fill="url(#gold)" fill-opacity="0.18"/>
+    <circle cx="548" cy="412" r="46" fill="#0A4C74" fill-opacity="0.08"/>
+    <circle cx="126" cy="378" r="56" fill="#D49A34" fill-opacity="0.10"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="145" y="108" width="418" height="286" rx="34" fill="url(#panel)" stroke="#C7D6E8" stroke-opacity="0.9"/>
+  </g>
+
+  <g opacity="0.95">
+    <rect x="178" y="140" width="132" height="78" rx="20" fill="#FFFFFF" stroke="#D6E2F0"/>
+    <rect x="321" y="140" width="108" height="78" rx="20" fill="#FFFFFF" stroke="#D6E2F0"/>
+    <rect x="438" y="140" width="92" height="78" rx="20" fill="#FFFFFF" stroke="#D6E2F0"/>
+
+    <rect x="178" y="236" width="230" height="126" rx="24" fill="#FFFFFF" stroke="#D6E2F0"/>
+    <rect x="422" y="236" width="108" height="126" rx="24" fill="#FFFFFF" stroke="#D6E2F0"/>
+  </g>
+
+  <g>
+    <rect x="198" y="160" width="34" height="34" rx="10" fill="url(#navy)"/>
+    <path d="M207 177H223" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M207 170H215" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M207 184H219" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M211 194C212.105 194 213 193.105 213 192C213 190.895 212.105 190 211 190C209.895 190 209 190.895 209 192C209 193.105 209.895 194 211 194Z" fill="#D49A34"/>
+
+    <text x="246" y="172" fill="#0D2440" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Policy brief</text>
+    <text x="246" y="190" fill="#597187" font-family="Arial, Helvetica, sans-serif" font-size="12">Decision-ready</text>
+
+    <rect x="339" y="160" width="32" height="32" rx="10" fill="url(#teal)"/>
+    <path d="M347 178L354 171L361 178" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M347 182H361" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+
+    <text x="378" y="172" fill="#0D2440" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Research</text>
+    <text x="378" y="190" fill="#597187" font-family="Arial, Helvetica, sans-serif" font-size="12">Evidence-led</text>
+
+    <rect x="454" y="160" width="32" height="32" rx="10" fill="url(#gold)"/>
+    <path d="M462 176H478" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M462 169H472" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M462 183H475" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+
+    <text x="492" y="172" fill="#0D2440" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Delivery</text>
+    <text x="492" y="190" fill="#597187" font-family="Arial, Helvetica, sans-serif" font-size="12">On schedule</text>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <circle cx="486" cy="295" r="78" fill="#0A4C74"/>
+    <circle cx="486" cy="295" r="67" fill="none" stroke="#DCE7F3" stroke-opacity="0.28" stroke-width="2"/>
+    <circle cx="486" cy="295" r="48" fill="none" stroke="#F4D08A" stroke-opacity="0.35" stroke-width="2"/>
+    <circle cx="486" cy="295" r="20" fill="#F7FBFF" fill-opacity="0.16"/>
+    <path d="M486 227V363" stroke="#F7FBFF" stroke-opacity="0.24" stroke-width="2"/>
+    <path d="M418 295H554" stroke="#F7FBFF" stroke-opacity="0.24" stroke-width="2"/>
+    <path d="M438 248C449 239 466 232 486 232C506 232 523 239 534 248" stroke="#F4D08A" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M438 342C449 351 466 358 486 358C506 358 523 351 534 342" stroke="#F4D08A" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M449 266L486 295L524 264" stroke="#FFFFFF" stroke-opacity="0.76" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="486" cy="295" r="7" fill="#F4D08A"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="203" y="282" width="138" height="82" rx="22" fill="#0D2440"/>
+    <rect x="219" y="298" width="106" height="10" rx="5" fill="#F4D08A"/>
+    <rect x="219" y="318" width="80" height="8" rx="4" fill="#8DA5BB" fill-opacity="0.9"/>
+    <rect x="219" y="334" width="92" height="8" rx="4" fill="#8DA5BB" fill-opacity="0.75"/>
+    <circle cx="324" cy="324" r="12" fill="url(#gold)"/>
+    <path d="M319 324H329" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M324 319V329" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="425" y="90" width="142" height="36" rx="18" fill="#FFFFFF" stroke="#D6E2F0"/>
+    <circle cx="449" cy="108" r="10" fill="url(#gold)"/>
+    <path d="M445 108H453" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M449 104V112" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="468" y="101" width="74" height="6" rx="3" fill="#99AABB"/>
+    <rect x="468" y="111" width="42" height="6" rx="3" fill="#C7D6E8"/>
+  </g>
+
+  <g opacity="0.7">
+    <path d="M617 340C640 305 645 258 628 221" stroke="#D49A34" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M630 228L639 220L641 233" stroke="#D49A34" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="620" cy="205" r="9" fill="#D49A34"/>
+    <circle cx="587" cy="248" r="7" fill="#0A4C74"/>
+    <circle cx="602" cy="318" r="6" fill="#2EA4B3"/>
+    <circle cx="555" cy="360" r="8" fill="#D49A34"/>
+    <path d="M620 205L587 248L602 318L555 360" stroke="#9CB3C9" stroke-opacity="0.5" stroke-width="2" stroke-dasharray="6 8"/>
+  </g>
+
+  <g>
+    <path d="M117 414C182 387 226 391 300 424" stroke="#B9CBE0" stroke-opacity="0.62" stroke-width="4" stroke-linecap="round"/>
+    <path d="M540 401C603 383 649 379 708 394" stroke="#B9CBE0" stroke-opacity="0.38" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

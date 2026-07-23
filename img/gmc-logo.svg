@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="248" height="92" viewBox="0 0 248 92" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">GMC Consulting Services logo</title>
+  <desc id="desc">An oval logo badge with the letters GMC in a refined consulting style.</desc>
+  <defs>
+    <linearGradient id="badge" x1="18" y1="14" x2="230" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBFDFF"/>
+      <stop offset="1" stop-color="#D8E7F3"/>
+    </linearGradient>
+    <linearGradient id="core" x1="28" y1="18" x2="220" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B5C86"/>
+      <stop offset="1" stop-color="#08182A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="68" y1="20" x2="180" y2="72" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8E0AE"/>
+      <stop offset="1" stop-color="#C88A20"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="248" height="92" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#081423" flood-opacity="0.20"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="10" y="10" width="228" height="72" rx="36" fill="url(#badge)"/>
+    <rect x="16" y="16" width="216" height="60" rx="30" fill="url(#core)"/>
+    <path d="M40 52C40 36.536 52.536 24 68 24H180C195.464 24 208 36.536 208 52C208 52.7284 207.974 53.4495 207.922 54.1634C207.406 61.2147 201.569 66.6441 194.502 66.6441H53.4984C46.4315 66.6441 40.594 61.2147 40.0782 54.1634C40.0264 53.4495 40 52.7284 40 52Z" fill="url(#badge)" fill-opacity="0.07"/>
+    <ellipse cx="124" cy="46" rx="88" ry="25" stroke="url(#accent)" stroke-width="2.2" stroke-opacity="0.72"/>
+    <ellipse cx="124" cy="46" rx="74" ry="19" stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="1.4"/>
+  </g>
+
+  <g transform="translate(0 1)">
+    <text x="124" y="54" text-anchor="middle" fill="#FFFFFF" font-family="Montserrat, Arial, sans-serif" font-size="27" font-weight="900" letter-spacing="2.5">GMC</text>
+    <path d="M90 62H158" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="124" cy="20" r="3.2" fill="#F8E0AE" fill-opacity="0.95"/>
+    <circle cx="126.3" cy="71" r="2.2" fill="#F8E0AE" fill-opacity="0.62"/>
+  </g>
+</svg>

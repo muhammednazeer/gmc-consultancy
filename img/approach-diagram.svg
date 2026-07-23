@@ -1,0 +1,78 @@
+<svg width="560" height="420" viewBox="0 0 560 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GMC Consulting approach diagram</title>
+  <desc id="desc">A polished consulting workflow diagram with three connected stages and a central decision loop.</desc>
+  <defs>
+    <linearGradient id="bg" x1="88" y1="50" x2="492" y2="370" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFE"/>
+      <stop offset="1" stop-color="#EAF2F8"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="130" y1="85" x2="430" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A4C74"/>
+      <stop offset="1" stop-color="#D6A24A"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EDF4FA"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#D6A24A"/>
+      <stop offset="1" stop-color="#F2D59A"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="560" height="420" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#09182A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="560" height="420" rx="34" fill="url(#bg)"/>
+
+  <g opacity="0.95">
+    <circle cx="280" cy="210" r="140" stroke="url(#ring)" stroke-width="20" stroke-linecap="round" stroke-dasharray="268 52"/>
+    <circle cx="280" cy="210" r="92" fill="#FFFFFF" opacity="0.75"/>
+    <circle cx="280" cy="210" r="76" fill="#FFFFFF"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="58" y="86" width="134" height="84" rx="22" fill="url(#node)" stroke="rgba(10,76,116,0.14)"/>
+    <rect x="368" y="86" width="134" height="84" rx="22" fill="url(#node)" stroke="rgba(10,76,116,0.14)"/>
+    <rect x="213" y="266" width="134" height="84" rx="22" fill="url(#node)" stroke="rgba(10,76,116,0.14)"/>
+  </g>
+
+  <path d="M192 128H230" stroke="#0A4C74" stroke-width="3" stroke-linecap="round"/>
+  <path d="M330 128H368" stroke="#0A4C74" stroke-width="3" stroke-linecap="round"/>
+  <path d="M280 210V266" stroke="#D6A24A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M280 210L192 128" stroke="#7AA4C0" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5 8"/>
+  <path d="M280 210L368 128" stroke="#7AA4C0" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5 8"/>
+
+  <g>
+    <circle cx="120" cy="128" r="28" fill="url(#ring)" opacity="0.12"/>
+    <circle cx="120" cy="128" r="18" fill="url(#ring)"/>
+    <path d="M111 128L117 134L130 121" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g>
+    <circle cx="435" cy="128" r="28" fill="url(#ring)" opacity="0.12"/>
+    <circle cx="435" cy="128" r="18" fill="url(#accent)"/>
+    <path d="M428 128H442" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M435 121V135" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <circle cx="280" cy="308" r="28" fill="url(#ring)" opacity="0.12"/>
+    <circle cx="280" cy="308" r="18" fill="url(#ring)"/>
+    <path d="M272 308H288" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M280 300V316" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <rect x="90" y="110" width="58" height="10" rx="5" fill="#D6A24A"/>
+  <rect x="90" y="129" width="78" height="8" rx="4" fill="#D7E4EE"/>
+  <rect x="403" y="110" width="58" height="10" rx="5" fill="#0A4C74"/>
+  <rect x="403" y="129" width="78" height="8" rx="4" fill="#D7E4EE"/>
+  <rect x="235" y="290" width="90" height="10" rx="5" fill="#0A4C74"/>
+  <rect x="235" y="309" width="68" height="8" rx="4" fill="#D7E4EE"/>
+
+  <g opacity="0.85">
+    <circle cx="280" cy="210" r="30" fill="#0A4C74" opacity="0.10"/>
+    <circle cx="280" cy="210" r="22" fill="#FFFFFF" stroke="#D8E4ED"/>
+    <path d="M270 210L277 217L291 203" stroke="#D6A24A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
