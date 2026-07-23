@@ -1,6 +1,22 @@
 jQuery(document).ready(function($) {
   "use strict";
 
+  function openMailClient(form) {
+    var name = form.find('#name').val() || 'Website visitor';
+    var email = form.find('#email').val() || 'Not provided';
+    var subject = form.find('#subject').val() || 'Website enquiry';
+    var message = form.find('textarea[name="message"]').val() || '';
+    var body = [
+      'Name: ' + name,
+      'Email: ' + email,
+      '',
+      message
+    ].join('\n');
+
+    var mailto = 'mailto:gmconsult@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    window.location.href = mailto;
+  }
+
   //Contact
   $('form.contactForm').submit(function() {
     var f = $(this).find('.form-group'),
@@ -91,15 +107,19 @@ jQuery(document).ready(function($) {
     if (ferror) return false;
     else var str = $(this).serialize();
     var action = $(this).attr('action');
-    if( ! action ) {
-      action = 'contactform/contactform.php';
+    if (!action || action === '#' || action.indexOf('contactform/contactform.php') !== -1) {
+      openMailClient($(this));
+      $("#sendmessage").addClass("show");
+      $("#errormessage").removeClass("show");
+      $('.contactForm').find("input, textarea").val("");
+      return false;
     }
+
     $.ajax({
       type: "POST",
       url: action,
       data: str,
       success: function(msg) {
-        // alert(msg);
         if (msg == 'OK') {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
