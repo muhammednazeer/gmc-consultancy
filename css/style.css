@@ -1358,7 +1358,6 @@ a:focus {
   line-height: 1.05;
   font-weight: 900;
   margin-bottom: 22px;
-  max-width: 11ch;
 }
 
 #intro .intro-info h1 span {
@@ -2569,7 +2568,6 @@ a:focus {
   }
 
   #intro .intro-info h1 {
-    max-width: 8ch;
     font-size: 54px;
   }
 
