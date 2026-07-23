@@ -1352,45 +1352,6 @@ a:focus {
   position: relative;
 }
 
-#intro .hero-visual-card {
-  position: absolute;
-  left: 22px;
-  bottom: 22px;
-  max-width: 290px;
-  padding: 18px 18px 17px;
-  border-radius: 22px;
-  background: rgba(7, 24, 42, 0.82);
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  box-shadow: 0 20px 38px rgba(2, 11, 20, 0.22);
-  backdrop-filter: blur(14px);
-  color: #ffffff;
-  z-index: 2;
-}
-
-#intro .hero-card-label {
-  margin-bottom: 8px;
-  color: var(--gmc-brand-alt);
-  text-transform: uppercase;
-  letter-spacing: 0.22em;
-  font-size: 10px;
-  font-weight: 800;
-}
-
-#intro .hero-card-title {
-  margin-bottom: 8px;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: "Merriweather", serif;
-  line-height: 1.35;
-}
-
-#intro .hero-card-copy {
-  margin-bottom: 0;
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 14px;
-  line-height: 1.7;
-}
-
 #intro .intro-info h1 {
   color: #ffffff;
   font-size: 58px;
@@ -2543,14 +2504,6 @@ a:focus {
 
   #intro .hero-metrics {
     grid-template-columns: 1fr;
-  }
-
-  #intro .hero-visual-card {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    max-width: none;
-    margin-top: -8px;
   }
 
   #about .about-illustration {
