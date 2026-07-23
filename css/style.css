@@ -1138,6 +1138,8 @@ h6 {
 }
 
 html {
+  background-color: var(--gmc-bg);
+  color-scheme: light;
   scroll-behavior: smooth;
 }
 
@@ -1150,6 +1152,7 @@ body {
     radial-gradient(circle at top left, rgba(10, 76, 116, 0.12), transparent 32%),
     radial-gradient(circle at right 15%, rgba(214, 162, 74, 0.10), transparent 28%),
     var(--gmc-bg);
+  background-color: var(--gmc-bg);
   color: var(--gmc-text);
   font-family: "Manrope", sans-serif;
   -webkit-font-smoothing: antialiased;
